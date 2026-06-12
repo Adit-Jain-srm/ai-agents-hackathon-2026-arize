@@ -141,3 +141,19 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Datasets (large files - publish to HF/Kaggle instead)
+datasets/*.jsonl
+datasets/*.csv
+datasets/*.parquet
+
+# Temp
+verify_adaption.py

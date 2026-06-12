@@ -1,0 +1,6 @@
+adaption>=0.3.0
+python-dotenv>=1.0.0
+datasets>=5.0.0
+huggingface-hub>=1.0.0
+pandas>=2.0.0
+httpx>=0.24.0
